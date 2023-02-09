@@ -1,0 +1,42 @@
+.honour {
+    font-size: 1.1em;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.honour > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.honour-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.honour-img {
+    width: 30%;
+
+}
+
+.honour-img img {
+    width: 50%;
+    align-self: center;
+}
+
+.honour-number {
+    width: 10%;
+
+}
+
+.honour-season {
+    width: 60%;
+}

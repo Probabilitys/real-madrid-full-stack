@@ -1,0 +1,77 @@
+.scheduler-container {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    min-width: 500px;
+    margin: 30px auto;
+    border: 1px solid steelblue;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.scheduler-header  {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.submit-btn-holder {
+    display: block;
+    text-align: center;
+}
+
+.scheduler-btn {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 15px 20px;
+    background: green;
+    color: yellow;
+}
+
+.back-btn {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 10px 25px;
+    background: steelblue;
+    color: yellow;
+}
+
+.form-component {
+    position: relative;
+}
+
+.form-component label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: gray;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.form-component input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.form-component input:focus ~ label,
+.form-component input:valid ~ label {
+    top: -20px;
+    left: 0;
+}
+
+.form-component input:focus {
+    border-bottom: 2px solid black;
+}

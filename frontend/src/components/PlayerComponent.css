@@ -1,0 +1,43 @@
+.player {
+    font-size: 1.1em;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.player div {    
+    padding: 5px 8px;
+    border: 1px solid white;
+}
+
+.player:not(.title) {
+    background-color: skyblue;
+    text-align: left;
+}
+
+.title {
+    font-weight: bold;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.number {
+    width: 15%;
+    text-align: center;
+}
+
+.position {
+    width: 15%;
+    text-align: center;
+}
+
+.name {
+    width: 40%;
+    text-align: center;
+}
+
+.birth-date {
+    width: 30%;
+    text-align: center;
+}

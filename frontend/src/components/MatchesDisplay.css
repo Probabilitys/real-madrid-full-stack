@@ -1,0 +1,23 @@
+.current-header {
+    text-align: center;
+    font-size: 30px;
+    font-size: 2.5em;
+}
+
+.add-btn-holder {
+    margin-left: 5px;
+    margin-bottom: 40px;
+}
+
+.add-schedule-btn {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10px 25px;
+    background: steelblue;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

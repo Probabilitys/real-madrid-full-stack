@@ -1,0 +1,32 @@
+.match {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background: #f4f4f4;
+    margin: 10px 0;   
+    padding: 10px 100px;
+}
+
+.match-text {
+    margin: 10px;
+}
+
+.match-btn {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.update-btn {
+    font-size: 14px;
+    background: steelblue;
+    color: yellow;
+}
+
+.remove-btn {
+    background: red;
+    color: white;
+}
